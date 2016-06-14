@@ -10,7 +10,7 @@ perl:
 matrix:
   include:
     - perl: 5.18
-    - env: COVERAGE=1
+      env: COVERAGE=1
   allow_failures:
     - perl: blead
 sudo: false
